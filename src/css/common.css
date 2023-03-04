@@ -10,6 +10,9 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+
+  background: url(../image/js.jpg) center / cover no-repeat;
+  min-height: 100vh;
 }
 
 img {
@@ -36,4 +39,26 @@ button {
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
     inset -7px -7px 10px 0px rgba(0, 0, 0, 0.1),
     7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  border: solid black;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: black;
+  display: inline-flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+a:hover {
+  border: solid white;
+  background-color: black;
+  color: white;
 }
