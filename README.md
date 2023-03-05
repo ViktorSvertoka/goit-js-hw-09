@@ -1,8 +1,8 @@
 <p align="center">
-  <a href="https://github.com/arthurspk/guiadevbrasil">
-    <img src="./images/guia.png" alt="Guia Extenso de Programação" width="160" height="160">
+  <a href="https://github.com/ViktorSvertoka/goit-js-hw-09">
+    <img src="./assets/js(1).jpg" alt="JS" width="160" height="160">
   </a>
-  <h1 align="center">Guia Extenso de Programação</h1>
+  <h1 align="center">JS</h1>
 </p>
 
 **Read in other languages: [Українська](README.md), [English](README.en.md).**
