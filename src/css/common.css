@@ -85,7 +85,7 @@ img {
 }
 
 .field {
-  padding: 10px;
+  padding: 20px;
   background-color: #fff352;
   border: #21ebff 2px solid;
   display: flex;
@@ -97,7 +97,7 @@ img {
   text-transform: uppercase;
   font-weight: 700;
   width: 120px;
-  height: 110px;
+  height: 120px;
 }
 
 .value {
