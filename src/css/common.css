@@ -80,8 +80,8 @@ img {
 
 .field {
   padding: 10px;
-  background-color: #000;
-  border: #212121 2px solid;
+  background-color: #fff352;
+  border: #21ebff 2px solid;
   display: flex;
   flex-direction: column;
   border-radius: 20px;
@@ -93,17 +93,17 @@ img {
 }
 
 .value {
-  color: rgb(220, 98, 98);
+  color: #ff9aff;
   font-weight: 700;
   font-size: 50px;
 }
 
 .value.end {
-  color: #fff;
+  color: #8ce436;
 }
 
 .label {
-  color: #fff;
+  color: #8ce436;
   font-weight: 500;
   font-size: 15px;
 }
