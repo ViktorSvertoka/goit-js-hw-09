@@ -76,6 +76,7 @@ img {
   margin-left: 10px;
   cursor: pointer;
   border: 2px solid #fff352;
+  background-color: #21ebff;
   outline: none;
 }
 
@@ -94,6 +95,7 @@ img {
   border-radius: 50%;
   align-items: center;
   margin-right: 20px;
+  padding-top: 15px;
   font-size: x-large;
   text-transform: uppercase;
   font-weight: 700;
