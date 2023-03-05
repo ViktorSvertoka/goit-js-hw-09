@@ -22,6 +22,11 @@ body {
   min-height: 100vh;
 }
 
+.body-promises {
+  background: url(../image/wall-math.jpg) center / cover no-repeat;
+  min-height: 100vh;
+}
+
 ul {
   list-style: none;
 }
@@ -42,6 +47,10 @@ a:hover {
   border: solid white;
   background-color: black;
   color: white;
+}
+
+.btn-white {
+  background-color: white;
 }
 
 img {
@@ -144,4 +153,43 @@ img {
   border: 2px solid #fff352;
   color: black;
   box-shadow: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 12px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 3px solid black;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  color: white;
+  border-radius: 4px;
+  font-size: large;
+  font-weight: 700;
+}
+
+.form button {
+  padding: 8px 12px;
+  font: inherit;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: large;
+  font-weight: 700;
+}
+
+.form input {
+  padding: 8px 12px;
+  border: 2px black;
+  outline: none;
+  border-radius: 4px;
 }
