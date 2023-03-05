@@ -10,8 +10,17 @@
   <body class="body-timer">
     <p><a href="index.html">Go back</a></p>
 
-    <input class="picker" type="text" id="datetime-picker" />
-    <button class="btn-start" type="button" data-start>Start</button>
+    <div class="timer-wrap">
+      <input class="picker" type="text" id="datetime-picker" />
+      <button class="btn-start" type="button" data-start>Start</button>
+      <button
+        class="btn-reload"
+        value="Refresh Page"
+        onClick="window.location.href=window.location.href"
+      >
+        RELOAD PAGE
+      </button>
+    </div>
 
     <div class="timer">
       <div class="field">

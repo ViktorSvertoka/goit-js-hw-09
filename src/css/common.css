@@ -76,6 +76,13 @@ img {
     7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
+.timer-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: row;
+}
+
 .picker {
   margin-bottom: 100px;
   height: 50px;
@@ -87,6 +94,7 @@ img {
   border: 2px solid #fff352;
   background-color: #21ebff;
   outline: none;
+  font-weight: 700;
 }
 
 .picker:disabled {
@@ -129,8 +137,8 @@ img {
 }
 
 .label {
-  color: #21ebff;
-  font-weight: 500;
+  color: black;
+  font-weight: 700;
   font-size: 15px;
 }
 
@@ -145,6 +153,8 @@ img {
   border: 2px solid #21ebff;
   box-shadow: 5px 5px 1px 1px rgba(76, 86, 106, 0.2);
   cursor: pointer;
+  font-size: large;
+  font-weight: 700;
 }
 
 .btn-start:disabled {
@@ -153,6 +163,17 @@ img {
   border: 2px solid #fff352;
   color: black;
   box-shadow: none;
+}
+
+.btn-reload {
+  width: 180px;
+  height: 50px;
+  background-color: #fff352;
+  border: 2px solid #ff9aff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: 700;
 }
 
 .form {
