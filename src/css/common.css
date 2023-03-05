@@ -85,19 +85,18 @@ img {
 }
 
 .field {
-  padding: 20px;
   background-color: #fff352;
   border: #21ebff 2px solid;
   display: flex;
   flex-direction: column;
-  border-radius: 20px;
+  border-radius: 50%;
   align-items: center;
   margin-right: 20px;
   font-size: x-large;
   text-transform: uppercase;
   font-weight: 700;
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
 }
 
 .value {
