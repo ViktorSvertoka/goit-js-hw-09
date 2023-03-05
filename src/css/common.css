@@ -64,21 +64,18 @@ img {
 
 .picker {
   margin-bottom: 100px;
-
   height: 50px;
   text-align: center;
   font-size: large;
   border-radius: 8px;
+  margin-left: 10px;
 }
 
 .timer {
   display: flex;
   justify-content: center;
   gap: 30px;
-
-  display: flex;
   flex-direction: row;
-  justify-content: center;
 }
 
 .field {
@@ -88,9 +85,6 @@ img {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-
-  display: flex;
-  flex-direction: column;
   align-items: center;
   margin-right: 20px;
   font-size: x-large;
@@ -104,15 +98,14 @@ img {
   font-size: 50px;
 }
 
-.label {
-  color: #fff;
-
-  font-weight: 500;
-  font-size: 15px;
-}
-
 .value.end {
   color: #fff;
+}
+
+.label {
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
 }
 
 .btn-start {
@@ -136,33 +129,3 @@ img {
   cursor: pointer;
   border: none;
 }
-
-/* input {
-  height: 50px;
-  text-align: center;
-  font-size: large;
-  border-radius: 8px;
-} */
-
-/* .boxElement {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 90vh;
-} */
-
-/* .field {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-right: 20px;
-  font-size: x-large;
-  text-transform: uppercase;
-  font-weight: 700;
-} */
-
-/* .timer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-} */
