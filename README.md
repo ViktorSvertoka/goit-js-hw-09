@@ -1,10 +1,3 @@
-<p align="center">
-  <a href="https://github.com/ViktorSvertoka/goit-js-hw-09">
-    <img src="./assets/status.png" alt="JS" width="160" height="160">
-  </a>
-  <h1 align="center">JS</h1>
-</p>
-
 **Read in other languages: [Українська](README.md), [English](README.en.md).**
 
 # Критерії приймання
