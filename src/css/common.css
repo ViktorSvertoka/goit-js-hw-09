@@ -102,10 +102,10 @@ button {
   margin: 0 20px;
   width: 11em;
   height: 50px;
-  background: yellow;
+  background: #fff352;
   color: black;
   text-transform: uppercase;
-  border: 2px solid blue;
+  border: 2px solid #21ebff;
   box-shadow: 5px 5px 1px 1px rgba(76, 86, 106, 0.2);
   cursor: pointer;
 }
@@ -126,12 +126,12 @@ input {
   border-radius: 8px;
 }
 
-.boxElement {
+/* .boxElement {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 90vh;
-}
+} */
 
 .field {
   display: flex;
