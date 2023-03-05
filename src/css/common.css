@@ -74,6 +74,11 @@ img {
   font-size: large;
   border-radius: 8px;
   margin-left: 10px;
+  cursor: pointer;
+}
+
+.picker:disabled {
+  cursor: none;
 }
 
 .timer {
@@ -116,7 +121,7 @@ img {
 .btn-start {
   border-radius: 8px;
   margin: 0 20px;
-  width: 11em;
+  width: 140px;
   height: 50px;
   background-color: #fff352;
   color: black;
@@ -132,5 +137,4 @@ img {
   border: 2px solid #fff352;
   color: black;
   box-shadow: none;
-  cursor: pointer;
 }
