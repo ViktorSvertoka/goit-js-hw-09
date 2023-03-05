@@ -75,6 +75,8 @@ img {
   border-radius: 8px;
   margin-left: 10px;
   cursor: pointer;
+  border: 2px solid #fff352;
+  outline: none;
 }
 
 .timer {
