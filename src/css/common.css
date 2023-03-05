@@ -102,11 +102,12 @@ button {
   margin: 0 20px;
   width: 11em;
   height: 50px;
-  background: #05510f;
+  background: yellow;
   color: #eceff4;
   text-transform: uppercase;
-  border: 0;
+  border: solid blue;
   box-shadow: 12px 12px 1px 1px rgba(76, 86, 106, 0.2);
+  cursor: pointer;
 }
 
 button:disabled {
@@ -114,6 +115,7 @@ button:disabled {
   background: #d8dee9;
   color: #434c5e;
   box-shadow: none;
+  cursor: pointer;
 }
 
 input {
