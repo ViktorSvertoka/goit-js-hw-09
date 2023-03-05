@@ -77,10 +77,6 @@ img {
   cursor: pointer;
 }
 
-.picker:disabled {
-  cursor: none;
-}
-
 .timer {
   display: flex;
   justify-content: center;
@@ -100,7 +96,7 @@ img {
   font-size: x-large;
   text-transform: uppercase;
   font-weight: 700;
-  width: 60px;
+  width: 120px;
   height: 110px;
 }
 
