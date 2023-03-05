@@ -17,6 +17,11 @@ body {
   min-height: 100vh;
 }
 
+.body-timer {
+  background: url(../image/wall-neon.jpg) center / cover no-repeat;
+  min-height: 100vh;
+}
+
 ul {
   list-style: none;
 }
@@ -113,7 +118,7 @@ img {
   margin: 0 20px;
   width: 11em;
   height: 50px;
-  background: #fff352;
+  background-color: #fff352;
   color: black;
   text-transform: uppercase;
   border: 2px solid #21ebff;
@@ -123,8 +128,9 @@ img {
 
 .btn-start:disabled {
   margin: 0 20px;
-  background: #d8dee9;
-  color: #434c5e;
+  background-color: #ff9aff;
+  border: 2px solid #fff352;
+  color: black;
   box-shadow: none;
   cursor: pointer;
   border: none;
