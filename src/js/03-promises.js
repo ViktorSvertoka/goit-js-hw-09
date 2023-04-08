@@ -33,14 +33,14 @@ function onSubmitForm(event) {
 }
 
 function createPromise(position, delay) {
-  return new Promise((res, rej) => {
+  return new Promise((resolve, reject) => {
     const shouldResolve = Math.random() > 0.3;
 
     setTimeout(() => {
       if (shouldResolve) {
-        res({ position, delay });
+        resolve({ position, delay });
       } else {
-        rej({ position, delay });
+        reject({ position, delay });
       }
     }, delay);
   });
