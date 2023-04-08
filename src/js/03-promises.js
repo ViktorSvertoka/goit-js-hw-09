@@ -4,9 +4,9 @@ const form = document.querySelector('.form');
 
 form.addEventListener('submit', onSubmitForm);
 
-function onSubmitForm(evt) {
-  evt.preventDefault();
-  const { delay, step, amount } = evt.currentTarget.elements;
+function onSubmitForm(event) {
+  event.preventDefault();
+  const { delay, step, amount } = event.currentTarget.elements;
 
   if (delay.value < 0 || step.value < 0 || amount.value < 0) {
     Notiflix.Notify.warning(`❗ Please enter a positive number`);
@@ -29,7 +29,7 @@ function onSubmitForm(evt) {
     }
   }
 
-  evt.currentTarget.reset();
+  event.currentTarget.reset();
 }
 
 function createPromise(position, delay) {
